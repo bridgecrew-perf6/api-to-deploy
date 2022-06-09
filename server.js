@@ -12,4 +12,6 @@ app.use(bodyParser.json());
 
 app.use(studentsRouter);
 
-app.listen(5000);
+// app.listen(5000);
+
+module.exports = app;
